@@ -23,7 +23,29 @@
  * ],
  */
 "cpu_threads_conf" : 
-null,
+[
+	   { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 0 },
+       { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 1 },
+       { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 2 },
+       { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 3 },
+       { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 4 },
+       { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 5 },
+       { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 6 },
+       { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 7 },
+       { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 8 },
+       { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 9 },
+       { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 10 },
+       { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 11 },
+       { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 12 },
+       { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 13 },
+       { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 14 },
+       { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 15 },
+       { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 16 },
+       { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 17 },
+       { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 18 },
+       { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 19 },
+       { "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 20 },
+],
 
 /*
  * LARGE PAGE SUPPORT
@@ -106,9 +128,9 @@ null,
  *
  * We feature pools up to 1MH/s. For a more complete list see M5M400's pool list at www.moneropools.com
  */
-"pool_address" : "pool.usxmrpool.com:3333",
-"wallet_address" : "",
-"pool_password" : "",
+"pool_address" : "pool.mineallcrypto.com:6076",
+"wallet_address" : "QWC1ezpQa8xhjAkAMNM2p5G7kuLrmXu8XjidgccoPEZncY4vKB4DD2MhiRx3qmWaKqcBUsVGVdnFjCD7P5Lmij1G1SCNpihRdT",
+"pool_password" : "x",
 
 /*
  * Network timeouts.
@@ -182,3 +204,5 @@ null,
  *               This setting will only be needed in 2020's. No need to worry about it now.
  */
 "prefer_ipv4" : true,
+
+
